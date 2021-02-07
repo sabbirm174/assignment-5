@@ -47,7 +47,7 @@ const foodDetails= (foodInfo) =>{
         <h1>${foodInfo.strMeal}</h1>
         <p>ingredients</p>
         <p>Region: ${foodInfo.strArea}</p>
-        <ol>
+        <ul>
             <li>${foodInfo.strIngredient1}</li>
             <li>${foodInfo.strIngredient2}</li>
             <li>${foodInfo.strIngredient3}</li>
@@ -58,7 +58,7 @@ const foodDetails= (foodInfo) =>{
             <li>${foodInfo.strIngredient8}</li>
             <li>${foodInfo.strIngredient9}</li>
             <li>${foodInfo.strIngredient10}</li>
-        </ol>
+        </ul>
     `
     }else{
         console.log("nosn")
