@@ -1,0 +1,38 @@
+p{
+    color:red;
+}
+.full-wrapper{
+    width: 100%;
+}
+.search-wrap{
+    padding-left: 12px;
+}
+.meal-item img{
+    width: 260px;
+}
+#meal img{
+    border-radius: 7px 7px 0 0;
+}
+#meal h5{
+    background-color: linen;
+    padding: 10px;
+    border-radius: 0 0 7px 7px;
+}
+.flex-wra{
+    flex-wrap: wrap;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+#food-details{
+padding: 50px;
+}
+#food-details img{
+    width: 400px;
+    border-radius: 7px;
+}
+#food-details p{
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+}
